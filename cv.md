@@ -19,3 +19,27 @@ My main goal is to find a job, that will bring me pleasure every day, regardless
 - Team player
 - Prioritizing
 ***
+## Work Experience:
+- 2 years member of the restaurant crew in  McDonald's
+- 2 years hospital nurse in BSMP
+- 3 years pediatrician
+- 3 month self-education HTML, CSS 
+- [result of my work](https://github.com/Derrsa/Example-of-my-work)
+***
+##  Skills:
+- Basic Python
+- HTML, CSS
+***
+## Code example:
+```
+def multiple(a,b):
+    c = a * b;
+    return c;
+```
+***
+## Education:
+Belarusian  state medical universitet
+***
+## Languages: 
+- Russian fluent
+- StreamLine 1 year Pre-Intermediate
