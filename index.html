@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CV</title>
+</head>
+
+<body class="body">
+    <div class="wraper">
+        <header>
+            <div class="header__wraper flex">
+                <div class="header__logo">
+                    <a href="https://rs.school/" class="header__logo-link" target="_blank"> 
+                        <img src="img/header/header_logo.png" alt="logotip">
+                    </a>
+                </div>
+                <nav class="navigation">
+                    <ul class="navigation__list flex list-reset">
+                        <li class="navigation__item"><a class="navigation__item-link" href="#about-id">About me</a></li>
+                        <li class="navigation__item"><a class="navigation__item-link" href="#work-id">Work experience</a></li>
+                        <li class="navigation__item"><a class="navigation__item-link" href="#skills-id">Software skill</a></li>
+                        <li class="navigation__item"><a class="navigation__item-link" href="#education-id">Education</a></li>
+                        <li class="navigation__item"><a class="navigation__item-link" href="#code-id">Code Example</a></li>
+                    </ul>
+                </nav>
+            </div>        
+        </header>
+        <main class="main">
+            <section id="about-id" class="main__preview preview">
+                <div class="preview__wraper flex ">
+                    <div class="preview__left left">
+                        <div class="preview__avatar">
+                            <img src="img/body/avatar.jpg" class="preview__img" alt="avatar">
+                        </div>                    
+                    </div>
+                    <div class="preview__right right">
+                        <div class="right__title-block">
+                            <h1 class="right__title">Poleshchuk <span class="right__title-name">Vladislav</span></h1>
+                            <p class="right__subtitle">Front-End Developer</p>
+                        </div>
+                        <div class="right__body">
+                            <section  class="right__about- about">
+                                <h2 class="about__title">About me</h2>
+                                <p class="about__descr">
+                                    My&nbsp;main goal is&nbsp;to&nbsp;find a&nbsp;job, that will bring me&nbsp;pleasure every day, 
+                                    regardless of&nbsp;the weather, my&nbsp;mood or&nbsp;the fall of&nbsp;meteorite. And no&nbsp;matter 
+                                    what, I&nbsp;will try to&nbsp;improve my&nbsp;professional skills, get better every day, 
+                                    try to&nbsp;learn something new every minute, achieve goals here and now. My&nbsp;priority 
+                                    is&nbsp;to&nbsp;do&nbsp;work qualitatively, fast and right.
+                                </p>
+                            </section>
+                            
+                        </div>        
+                    </div>
+                </div>
+            </section>
+            <div class="main__grid-container grid-cont">
+                <div class="grid-cont__left">
+                    <section id="education-id" class="grid-cont__education education">                
+                        <h2 class="education__title section-title">Education</h2>
+                        <table class="education__table">                            
+                            <tbody>
+                                <tr>
+                                    <td class="table__place">
+                                        <a href="https://bsmu.by" class="table__link" target="_blank">
+                                            BSMU
+                                        </a> 
+                                    </td>                                    
+                                    <td>2011 - 2017</td>                                    
+                                </tr>
+                                <tr>
+                                    <td class="table__place">
+                                         <a href="https://rs.school/" class="table__link" target="_blank">
+                                            RS-School
+                                         </a>
+                                    </td>                                    
+                                    <td>2022 - in progress</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>        
+                    <section id="work-id" class="grid-cont__work work">
+                        <h2 class="work__title section-title">Work Experience</h2>
+                        <ul class="work__list list-reset flex">
+                            <li class="work__item work__item-McD ">2 years crew person in</li>
+                            <li class="work__item">2 years hospital nurse in BSMP</li>
+                            <li class="work__item">3 years pediatrician</li>
+                            <li class="work__item">3 month self-education HTML, CSS</li>
+                            <li class="work__item"><a class="work__item-link" href="https://github.com/Derrsa/Example-of-my-work">Result of my self education</a></li>
+
+                        </ul>                         
+                    </section>
+                    <section id="contacts-id" class="grid-cont__contacts contacts">
+                        <h2 class="contacts__title section-title">Contacts</h2>
+                        <ul class="contacts__list list-reset">
+                            <li class="contacts__item flex">
+                                <img src="img/body/contacts/email.svg" class="contacts__email-svg" alt="Email">
+                                <a class="contacts__link" href="mailto:Derrsay@yandex.by">Derrsay@yandex.by</a>
+                            </li>
+                            <li class="contacts__item flex">
+                                <img src="img/body/contacts/github.svg" class="contacts__email-svg" alt="GitHub">
+                                <a class="contacts__link" href="https://github.com/Derrsa">Derrsa</a>
+                            </li>
+                            <li class="contacts__item flex">
+                                <img src="img/body/contacts/discord.svg" class="contacts__email-svg" alt="Discord">
+                                <a class="contacts__link" href="https://discord.com/channels/@me">derrsay(@Derrsa)</a>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="grid-cont__right">
+                    <section id="skills-id" class="grid-cont__skills skills">                    
+                        <h2 class="skills__title section-title">Skills</h2>
+                        <div class="skills__wraper flex">
+                            <div class="skills__hard-skills hard-skills">
+                                <h3 class="hard-skills__title">IT skills</h3>
+                                <table class="hard-skills__table">
+                                    <tbody class="hard-skills__tbody">
+                                        <tr>
+                                            <td>Python</td>
+                                            <td>
+                                                <progress class="hard-skills_progress-bar" value="20" max="100"></progress>
+                                                20%
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>HTML,CSS</td>
+                                            <td>
+                                                <progress class="hard-skills_progress-bar" value="80" max="100"></progress>
+                                                80%
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>GIT</td>
+                                            <td>
+                                                <progress class="hard-skills_progress-bar" value="30" max="100"></progress>
+                                                30%
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Figma</td>
+                                            <td>
+                                                <progress class="hard-skills_progress-bar" value="75" max="100"></progress>
+                                                75%                                                
+                                            </td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td>JS</td>
+                                            <td>
+                                                <progress class="hard-skills_progress-bar" value="5" max="100"></progress>
+                                                5%
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>                           
+                            </div>
+                            
+                            <div class="skills__soft-skill soft-skill">
+                                <h3 class="soft-skill__title">Soft skills</h3>
+                                <ul class="soft-skill__list list-reset">
+                                    <li class="soft-skill__item">- Punctuality</li>
+                                    <li class="soft-skill__item">- Self-improvement</li>
+                                    <li class="soft-skill__item">- Flexibility</li>
+                                    <li class="soft-skill__item">- Sociability</li>
+                                    <li class="soft-skill__item">- Team player</li>
+                                    <li class="soft-skill__item">- Prioritizing</li>
+                                </ul>                                 
+                            </div>
+                            <div class="skills__language language">
+                                <h3 class="language__title">Language</h3>
+                                <ul class="language__list list-reset">
+                                    <li class="language__item">Russian - native</li>
+                                    <li class="language__item">English - B1(StreamLine)</li>
+                                </ul>
+                            </div>
+                            
+                            
+                        </div>
+                    </section>
+                    <section id="code-id" class="main__code code">
+                        <h2 class="code__title section-title">Code Expamle</h2>                                                   
+                        <pre>
+                            describe("pow", function(){
+                                describe("возводим в степень 3", function(){                               
+                                
+                                    function makeTest(x) {
+                                    let result = x * x * x;
+                                    it(`число ${x} в степени 3 равна ${result} `, function() {
+                                        assert.equal(pow(x, 3), result);
+                                    });
+                                    }                                
+                                    for(x = 1; x++){
+                                    makeTest(x);
+                                    }                                
+                                });
+
+                                it("Значение n дробное", function() {
+                                    assert.isNaN(pow(2, 1.5));
+                                });
+                                it("Значение n меньше 1", function() {
+                                    assert.isNaN(pow(2, -1));
+                                });                                
+                                })
+                        </pre>                                       
+                    </section> 
+                </div>
+            </div>  
+        </main>
+        <footer class="footer">
+            <div class="footer__bloc flex">
+                <div class="footer__GIT">
+                    <a href="https://github.com/Derrsa/rsschool-cv">
+                        <img class="footer__GIT-icon" src="img/footer/github.svg" alt="GIT HUB">
+                    </a>
+                    
+                </div>
+                <div class="footer__years">
+                    <span class="footer__year">2022</span>
+                </div>
+                <div class="footer__logo">
+                    <a href="https://rs.school/js/" class="footer__logo-link">
+                        <img src="img/footer/rs_school_js.svg" class="footer__logo-svg" alt="rs-school-js">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
