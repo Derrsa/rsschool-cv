@@ -1,0 +1,46 @@
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+  
+  .title-comm {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+  
+  .head__list {
+    background-color: grey;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  .hero {
+    text-align: center;
+  }
+  .hero img {
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  .main {
+    padding: 0 10%;
+    margin-bottom: 20px;
+  }
+  
+  .footer {
+    background-color: grey;
+    padding: 10px 10%;
+  }
+  
+  .footer__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__list .footer__item:nth-child(2) a {
+    width: 50px;
+  }
+  .footer__list a {
+    display: inline-block;
